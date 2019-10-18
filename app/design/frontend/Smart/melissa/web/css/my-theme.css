@@ -1,0 +1,37 @@
+/*my theme header*/
+@media (min-width: 768px), print{
+    .page-header .header.panel {
+        background-color: black;
+    }
+
+    .page-header .panel.wrapper {
+        border-bottom: 1px solid #e8e8e8;
+        background-color: black!important;
+    }
+}
+
+/*my delivery*/
+a:visited, .alink:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/*my minicart*/
+.minicart-wrapper .action.showcart:before {
+    color: white!important;
+}
+.minicart-wrapper .action.showcart {
+    margin-right: 10px;
+}
+
+/*my search bar*/
+.block-search input {
+    border-radius: 10px!important;
+}
+
+/*my term*/
+@media (min-width: 768px), print{
+    .footer.content .block {
+        float: none!important;
+    }
+}
